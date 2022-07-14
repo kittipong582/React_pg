@@ -1,16 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+const name = "Kittipong"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hi This my first React !
-        </p>
-        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer"> Learn React </a>
-      </header>
+    <div>
+      <label for="" style={{color:'red'}}>ตัวเลือก</label>
+      <select className="form-select">
+        <option value="">ตัวเลือก</option>
+        <option value="">ตัวเลือก 1</option>
+        <option value="">ตัวเลือก 2</option>
+        <option value="">ตัวเลือก 3</option>
+        <option value="">ตัวเลือก 4</option>
+      </select>
     </div>
   );
 }
